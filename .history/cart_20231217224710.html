@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
@@ -47,13 +47,13 @@
           e.clearRect(0, 0, e.canvas.width, e.canvas.height),
             e.fillText(t, 0, 0);
           var t = new Uint32Array(
-              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
             ),
             r =
               (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
               e.fillText(n, 0, 0),
               new Uint32Array(
-                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
               ));
           return t.every(function (e, t) {
             return e === r[t];
@@ -65,24 +65,24 @@
               return n(
                 e,
                 "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
-                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f",
               )
                 ? !1
                 : !n(
                     e,
                     "\ud83c\uddfa\ud83c\uddf3",
-                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                    "\ud83c\uddfa\u200b\ud83c\uddf3",
                   ) &&
                     !n(
                       e,
                       "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
-                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f",
                     );
             case "emoji":
               return !n(
                 e,
                 "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff",
-                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff"
+                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff",
               );
           }
           return !1;
@@ -141,7 +141,7 @@
                       f.toString() +
                       "(" +
                       [JSON.stringify(s), u.toString(), p.toString()].join(
-                        ","
+                        ",",
                       ) +
                       "));",
                     r = new Blob([e], { type: "text/javascript" }),
@@ -906,24 +906,10 @@
         }
       }
     </style>
-    <link
-      rel="icon"
-      href="img/favicon.ico"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      href="img/favicon.ico"
-      sizes="192x192"
-    />
-    <link
-      rel="apple-touch-icon"
-      href="img/favicon.ico"
-    />
-    <meta
-      name="msapplication-TileImage"
-      content="img/favicon.ico"
-    />
+    <link rel="icon" href="img/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="img/favicon.ico" sizes="192x192" />
+    <link rel="apple-touch-icon" href="img/favicon.ico" />
+    <meta name="msapplication-TileImage" content="img/favicon.ico" />
     <style id="yellow-pencil">
       #eluidd3bec131 {
         margin-top: 135px;
@@ -1172,9 +1158,17 @@
                                   >
                                 </p>
 
-                                <p><strong>Awake</strong><br />P.O BOX 55619 NAIROBI - HURUMA <br> Kenya</p>
+                                <p>
+                                  <strong>Awake</strong><br />P.O BOX 55619
+                                  NAIROBI - HURUMA <br />
+                                  Kenya
+                                </p>
 
-                                <a href="https://maps.app.goo.gl/6VRBm4rFqTd8THxT8" target="_blank" class="map-link">
+                                <a
+                                  href="https://maps.app.goo.gl/6VRBm4rFqTd8THxT8"
+                                  target="_blank"
+                                  class="map-link"
+                                >
                                   <span
                                     class="glyphicon glyphicon-map-marker kl-icon-white"
                                   ></span>
@@ -1267,9 +1261,7 @@
                             id="menu-item-2828"
                             class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2828 main-menu-item-top menu-item-even menu-item-depth-0"
                           >
-                            <a
-                              href=""
-                              class="main-menu-link main-menu-link-top"
+                            <a href="" class="main-menu-link main-menu-link-top"
                               ><span>PROGRAMS</span></a
                             >
                             <ul class="sub-menu clearfix">
@@ -1407,7 +1399,6 @@
         </div>
       </header>
 
-     
       <section id="content" class="site-content">
         <div class="container">
           <div class="row">
@@ -1415,7 +1406,6 @@
               <div id="th-content-page">
                 <div class="zn_content kl-blog-page-content">
                   <div class="itemBody kl-blog-page-body">
-
                     <div class="woocommerce">
                       <div class="woocommerce-notices-wrapper"></div>
                       <div class="wc-empty-cart-message">
@@ -1483,7 +1473,9 @@
                     P.O BOX 55619 NAIROBI - HURUMA
                   </p>
                   <p>
-                    <a href="https://maps.app.goo.gl/6VRBm4rFqTd8THxT8" target="_blank"
+                    <a
+                      href="https://maps.app.goo.gl/6VRBm4rFqTd8THxT8"
+                      target="_blank"
                       ><i class="fas fa-"></i> Open in Google Maps</a
                     >
                   </p>
@@ -1541,8 +1533,11 @@
                       style="height: 75px; padding-bottom: 30px"
                   /></a>
                   <p class="footer-copyright-text">
-                    Developed pro bono by <a href="https://github.com/hamidurrk">Md Hamidur Rahman Khan</a>, 
-                    <br>a web developer from <strong>Bangladesh</strong>, supporting Awake in Kenya. 
+                    Developed pro bono by
+                    <a href="https://github.com/hamidurrk"
+                      >Md Hamidur Rahman Khan</a
+                    >, <br />a web developer from <strong>Bangladesh</strong>,
+                    supporting Awake in Kenya.
                   </p>
                 </div>
               </div>
@@ -1561,8 +1556,5 @@
       data-visibleclass="on--totop"
       >TOP</a
     >
-
-    
-    
   </body>
 </html>

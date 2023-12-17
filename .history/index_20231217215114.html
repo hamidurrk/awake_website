@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
@@ -34,13 +34,13 @@
           e.clearRect(0, 0, e.canvas.width, e.canvas.height),
             e.fillText(t, 0, 0);
           var t = new Uint32Array(
-              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
             ),
             r =
               (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
               e.fillText(n, 0, 0),
               new Uint32Array(
-                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
               ));
           return t.every(function (e, t) {
             return e === r[t];
@@ -52,24 +52,24 @@
               return n(
                 e,
                 "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
-                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f",
               )
                 ? !1
                 : !n(
                     e,
                     "\ud83c\uddfa\ud83c\uddf3",
-                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                    "\ud83c\uddfa\u200b\ud83c\uddf3",
                   ) &&
                     !n(
                       e,
                       "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
-                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f",
                     );
             case "emoji":
               return !n(
                 e,
                 "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff",
-                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff"
+                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff",
               );
           }
           return !1;
@@ -128,7 +128,7 @@
                       f.toString() +
                       "(" +
                       [JSON.stringify(s), u.toString(), p.toString()].join(
-                        ","
+                        ",",
                       ) +
                       "));",
                     r = new Blob([e], { type: "text/javascript" }),
@@ -893,24 +893,10 @@
         padding-top: 10px;
       }
     </style>
-    <link
-      rel="icon"
-      href="img/favicon.ico"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      href="img/favicon.ico"
-      sizes="192x192"
-    />
-    <link
-      rel="apple-touch-icon"
-      href="img/favicon.ico"
-    />
-    <meta
-      name="msapplication-TileImage"
-      content="img/favicon.ico"
-    />
+    <link rel="icon" href="img/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="img/favicon.ico" sizes="192x192" />
+    <link rel="apple-touch-icon" href="img/favicon.ico" />
+    <meta name="msapplication-TileImage" content="img/favicon.ico" />
   </head>
 
   <body>
@@ -1034,9 +1020,17 @@
                                   >
                                 </p>
 
-                                <p><strong>Awake</strong><br />P.O BOX 55619 NAIROBI - HURUMA <br> Kenya</p>
+                                <p>
+                                  <strong>Awake</strong><br />P.O BOX 55619
+                                  NAIROBI - HURUMA <br />
+                                  Kenya
+                                </p>
 
-                                <a href="https://maps.app.goo.gl/6VRBm4rFqTd8THxT8" target="_blank" class="map-link">
+                                <a
+                                  href="https://maps.app.goo.gl/6VRBm4rFqTd8THxT8"
+                                  target="_blank"
+                                  class="map-link"
+                                >
                                   <span
                                     class="glyphicon glyphicon-map-marker kl-icon-white"
                                   ></span>
@@ -1322,7 +1316,6 @@
               class="kl-iosslider js-ios-slick"
               data-slick='{"infinite":true,"slidesToShow":1,"slidesToScroll":1,"autoplay":true,"autoplaySpeed":"6000","easing":"easeOutExpo","dragging":true,"loadingContainer":".eluida87a01a4","arrows":true,"appendArrows":".eluida87a01a4 .iosSliderNav","prevArrow":".eluida87a01a4 .znSlickNav-prev","nextArrow":".eluida87a01a4 .znSlickNav-next","dots":true,"appendDots":".eluida87a01a4 .kl-ios-selectors-block"}'
             >
-              
               <div class="item iosslider__item">
                 <img
                   class="slide-item-bg cover-fit-img vertical-pos--center"
@@ -1614,8 +1607,7 @@
         <section
           class="zn_section eluide3b7aab4 section-sidemargins section--no"
           id="eluide3b7aab4"
-        >
-        </section>
+        ></section>
 
         <div
           class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--line_border tbk-icon-pos--after-title eluid2ed53a24"
@@ -1842,10 +1834,9 @@
             <div class="row">
               <div
                 class="eluidbca1ce46 col-md-6 col-sm-6 znColumnElement"
-                style="margin-bottom: 20px;"
+                style="margin-bottom: 20px"
                 id="eluidbca1ce46"
               >
-              
                 <div
                   class="znColumnElement-innerWrapper-eluidbca1ce46 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left"
                 >
@@ -1853,16 +1844,16 @@
                     <div
                       class="el-videobox eluid48fa450d el-videobox-Type-modal"
                     >
-                    <iframe
-                    style="margin-bottom: 20px;"
-          width="560"
-          height="530"
-          src="https://www.youtube.com/embed/4F1frj1K2pc?si=O_ykty8SgSUlQdrF&amp;start=71"
-          title="Our Story"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+                      <iframe
+                        style="margin-bottom: 20px"
+                        width="560"
+                        height="530"
+                        src="https://www.youtube.com/embed/4F1frj1K2pc?si=O_ykty8SgSUlQdrF&amp;start=71"
+                        title="Our Story"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
                     </div>
                   </div>
                 </div>
@@ -2206,20 +2197,20 @@
                               <div class="content latest_posts-acc-content">
                                 <em
                                   class="element-scheme__faded latest_posts-acc-details"
-                                  >By Awake, in
-                                  Resources</em
+                                  >By Awake, in Resources</em
                                 >
                                 <h5
                                   class="m_title text-custom latest_posts-acc-title"
                                 >
-                                  <a
-                                    href="https://youtu.be/vHlfp5Kv3Mw"
+                                  <a href="https://youtu.be/vHlfp5Kv3Mw"
                                     >Welcoming The 2022-2024 Board</a
                                   >
                                 </h5>
                                 <div class="text latest_posts-acc-text">
-                                  Awake is excited to welcome its 2022-2024 board. The team consists of experts in areas Awake would want to grow the most
-						                    </div>
+                                  Awake is excited to welcome its 2022-2024
+                                  board. The team consists of experts in areas
+                                  Awake would want to grow the most
+                                </div>
                                 <a
                                   href="https://youtu.be/vHlfp5Kv3Mw"
                                   class="element-scheme__linkhv latest_posts-acc-more"
@@ -2244,19 +2235,18 @@
                               <div class="content latest_posts-acc-content">
                                 <em
                                   class="element-scheme__faded latest_posts-acc-details"
-                                  >By Awake, in
-                                  Resources</em
+                                  >By Awake, in Resources</em
                                 >
                                 <h5
                                   class="m_title text-custom latest_posts-acc-title"
                                 >
-                                  <a
-                                    href="https://youtu.be/UclY3B-jwAs"
+                                  <a href="https://youtu.be/UclY3B-jwAs"
                                     >7 years of Reflection</a
                                   >
                                 </h5>
                                 <div class="text latest_posts-acc-text">
-                                  Awake C.E.O, Meshack Otieno Reflects on 7 years of Reflection.
+                                  Awake C.E.O, Meshack Otieno Reflects on 7
+                                  years of Reflection.
                                 </div>
                                 <a
                                   href="https://youtu.be/UclY3B-jwAs"
@@ -2282,19 +2272,19 @@
                               <div class="content latest_posts-acc-content">
                                 <em
                                   class="element-scheme__faded latest_posts-acc-details"
-                                  >By Awake, in
-                                  Resources</em
+                                  >By Awake, in Resources</em
                                 >
                                 <h5
                                   class="m_title text-custom latest_posts-acc-title"
                                 >
-                                  <a
-                                    href="https://youtu.be/jZc6LPw-TfI"
+                                  <a href="https://youtu.be/jZc6LPw-TfI"
                                     >Funding and Human Design Thinking</a
                                   >
                                 </h5>
                                 <div class="text latest_posts-acc-text">
-                                  Awake Lead Young changemakers learn about Funding and Human Design Thinking from experts.
+                                  Awake Lead Young changemakers learn about
+                                  Funding and Human Design Thinking from
+                                  experts.
                                 </div>
                                 <a
                                   href="https://youtu.be/jZc6LPw-TfI"
@@ -2360,7 +2350,9 @@
                     P.O BOX 55619 NAIROBI - HURUMA
                   </p>
                   <p>
-                    <a href="https://maps.app.goo.gl/6VRBm4rFqTd8THxT8" target="_blank"
+                    <a
+                      href="https://maps.app.goo.gl/6VRBm4rFqTd8THxT8"
+                      target="_blank"
                       ><i class="fas fa-"></i> Open in Google Maps</a
                     >
                   </p>
@@ -2418,8 +2410,11 @@
                       style="height: 75px; padding-bottom: 30px"
                   /></a>
                   <p class="footer-copyright-text">
-                    Developed pro bono by <a href="https://github.com/hamidurrk">Md Hamidur Rahman Khan</a>, 
-                    <br>a web developer from <strong>Bangladesh</strong>, supporting Awake in Kenya. 
+                    Developed pro bono by
+                    <a href="https://github.com/hamidurrk"
+                      >Md Hamidur Rahman Khan</a
+                    >, <br />a web developer from <strong>Bangladesh</strong>,
+                    supporting Awake in Kenya.
                   </p>
                 </div>
                 <!-- end copyright -->

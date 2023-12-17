@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
@@ -35,13 +35,13 @@
           e.clearRect(0, 0, e.canvas.width, e.canvas.height),
             e.fillText(t, 0, 0);
           var t = new Uint32Array(
-              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
             ),
             r =
               (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
               e.fillText(n, 0, 0),
               new Uint32Array(
-                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
               ));
           return t.every(function (e, t) {
             return e === r[t];
@@ -53,24 +53,24 @@
               return n(
                 e,
                 "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
-                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f",
               )
                 ? !1
                 : !n(
                     e,
                     "\ud83c\uddfa\ud83c\uddf3",
-                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                    "\ud83c\uddfa\u200b\ud83c\uddf3",
                   ) &&
                     !n(
                       e,
                       "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
-                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f",
                     );
             case "emoji":
               return !n(
                 e,
                 "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff",
-                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff"
+                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff",
               );
           }
           return !1;
@@ -129,7 +129,7 @@
                       f.toString() +
                       "(" +
                       [JSON.stringify(s), u.toString(), p.toString()].join(
-                        ","
+                        ",",
                       ) +
                       "));",
                     r = new Blob([e], { type: "text/javascript" }),
@@ -857,24 +857,10 @@
         }
       }
     </style>
-    <link
-      rel="icon"
-      href="img/favicon.ico"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      href="img/favicon.ico"
-      sizes="192x192"
-    />
-    <link
-      rel="apple-touch-icon"
-      href="img/favicon.ico"
-    />
-    <meta
-      name="msapplication-TileImage"
-      content="img/favicon.ico"
-    />
+    <link rel="icon" href="img/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="img/favicon.ico" sizes="192x192" />
+    <link rel="apple-touch-icon" href="img/favicon.ico" />
+    <meta name="msapplication-TileImage" content="img/favicon.ico" />
     <style id="yellow-pencil">
       #eluidd3bec131 {
         margin-top: 135px;
@@ -1026,9 +1012,17 @@
                                   >
                                 </p>
 
-                                <p><strong>Awake</strong><br />P.O BOX 55619 NAIROBI - HURUMA <br> Kenya</p>
+                                <p>
+                                  <strong>Awake</strong><br />P.O BOX 55619
+                                  NAIROBI - HURUMA <br />
+                                  Kenya
+                                </p>
 
-                                <a href="https://maps.app.goo.gl/6VRBm4rFqTd8THxT8" target="_blank" class="map-link">
+                                <a
+                                  href="https://maps.app.goo.gl/6VRBm4rFqTd8THxT8"
+                                  target="_blank"
+                                  class="map-link"
+                                >
                                   <span
                                     class="glyphicon glyphicon-map-marker kl-icon-white"
                                   ></span>
@@ -1121,9 +1115,7 @@
                             id="menu-item-2828"
                             class="active main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2828 main-menu-item-top menu-item-even menu-item-depth-0"
                           >
-                            <a
-                              href=""
-                              class="main-menu-link main-menu-link-top"
+                            <a href="" class="main-menu-link main-menu-link-top"
                               ><span>PROGRAMS</span></a
                             >
                             <ul class="sub-menu clearfix">
@@ -1323,7 +1315,15 @@
                     <div
                       class="el-videobox eluid6eb46343 el-videobox-Type-modal"
                     >
-                    <iframe width="425" height="240" src="https://www.youtube.com/embed/abc4imXZEmk?si=ucKjnSb0a1BzevMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      <iframe
+                        width="425"
+                        height="240"
+                        src="https://www.youtube.com/embed/abc4imXZEmk?si=ucKjnSb0a1BzevMA"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
                     </div>
                   </div>
                 </div>
@@ -1341,7 +1341,13 @@
                       class="zn_text_box eluid938b2370 zn_text_box-light element-scheme--light"
                     >
                       <p>
-                        A significant challenge faced by young changemakers in undeserved communities is the lack of opportunities for meaningful connection, collaboration, and mentorship. This gap impedes their personal and professional development, hindering the formation of networks essential for navigating complex challenges and unlocking their full potential to grow their ventures
+                        A significant challenge faced by young changemakers in
+                        undeserved communities is the lack of opportunities for
+                        meaningful connection, collaboration, and mentorship.
+                        This gap impedes their personal and professional
+                        development, hindering the formation of networks
+                        essential for navigating complex challenges and
+                        unlocking their full potential to grow their ventures
                       </p>
                     </div>
                   </div>
@@ -1393,7 +1399,13 @@
                       class="zn_text_box eluidd09e07c8 zn_text_box-light element-scheme--light"
                     >
                       <p>
-                        The Awake Convening is designed to address this challenge by providing a platform for young individuals to connect, collaborate, and influence policymaking. This annual covening brings together diverse perspectives, fosters meaningful relationships, and provides a supportive environment for personal and professional growth.
+                        The Awake Convening is designed to address this
+                        challenge by providing a platform for young individuals
+                        to connect, collaborate, and influence policymaking.
+                        This annual covening brings together diverse
+                        perspectives, fosters meaningful relationships, and
+                        provides a supportive environment for personal and
+                        professional growth.
                       </p>
                     </div>
                   </div>
@@ -1500,13 +1512,15 @@
                       >
                       <div class="image-boxes-text">
                         <p>
-                          Dive into the ethical considerations of social entrepreneurship. Discuss and analyze case studies that explore the intersection of profit and purpose, ensuring that your ventures align with your values.
+                          Dive into the ethical considerations of social
+                          entrepreneurship. Discuss and analyze case studies
+                          that explore the intersection of profit and purpose,
+                          ensuring that your ventures align with your values.
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                
               </div>
 
               <div
@@ -1545,13 +1559,14 @@
                       >
                       <div class="image-boxes-text">
                         <p>
-                          We provide online community mental health support forums that create a safe space for women with disabilities to share experiences.
+                          We provide online community mental health support
+                          forums that create a safe space for women with
+                          disabilities to share experiences.
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                
               </div>
 
               <div
@@ -1584,8 +1599,9 @@
                         </div>
                         <div class="content stepbox3-content">
                           <div class="stepbox3-desc">
-                            The	desired	outcome	of	the	Awake	Convening	is	to	create	a	community	of	
-connected	and	empowered	young	individuals.
+                            The desired outcome of the Awake Convening is to
+                            create a community of connected and empowered young
+                            individuals.
                           </div>
                         </div>
                         <div class="clearfix"></div>
@@ -1599,9 +1615,10 @@ connected	and	empowered	young	individuals.
                         </div>
                         <div class="content stepbox3-content">
                           <div class="stepbox3-desc">
-                            Participants	should	leave	the	event	with	a	strengthened	network,	new	skills,	
-and	a	sense	of	inspiration,	equipped	to	face	challenges	and	contribute	
-positively	to	their	communities.
+                            Participants should leave the event with a
+                            strengthened network, new skills, and a sense of
+                            inspiration, equipped to face challenges and
+                            contribute positively to their communities.
                           </div>
                         </div>
                         <div class="clearfix"></div>
@@ -1646,14 +1663,21 @@ positively	to	their	communities.
                     >
                       <p>
                         <strong>1. Participant Engagement:</strong>
-                        Ensure active participation and engagement during the Convening, fostering a dynamic atmosphere for networking, idea exchange, and collaboration.
+                        Ensure active participation and engagement during the
+                        Convening, fostering a dynamic atmosphere for
+                        networking, idea exchange, and collaboration.
 
                         <br />
-                        <strong>2. Mentorship Opportunities:</strong> Facilitate mentorship sessions and networking events, providing participants with access to experienced professionals who can offer guidance and support.
+                        <strong>2. Mentorship Opportunities:</strong> Facilitate
+                        mentorship sessions and networking events, providing
+                        participants with access to experienced professionals
+                        who can offer guidance and support.
 
                         <br />
-                        <strong>3. Skill Enhancement:</strong> Offer workshops and sessions that focus on skill development, ranging from leadership and communication to problem solving and innovation.
-
+                        <strong>3. Skill Enhancement:</strong> Offer workshops
+                        and sessions that focus on skill development, ranging
+                        from leadership and communication to problem solving and
+                        innovation.
                       </p>
                     </div>
                   </div>
@@ -1680,16 +1704,30 @@ positively	to	their	communities.
                     >
                       <p>
                         <strong>1. Established Alumni Network:</strong>
-                        Cultivate a strong and active alumni network from past Convenings, enabling ongoing collaboration, mentorship, and knowledge exchange.
+                        Cultivate a strong and active alumni network from past
+                        Convenings, enabling ongoing collaboration, mentorship,
+                        and knowledge exchange.
 
                         <br />
-                        <strong>2. Community Impact:</strong> Measure the broader impact of the Convening by tracking the initiatives and projects initiated by participants in their communities, reflecting the practical application of skills and knowledge gained.
+                        <strong>2. Community Impact:</strong> Measure the
+                        broader impact of the Convening by tracking the
+                        initiatives and projects initiated by participants in
+                        their communities, reflecting the practical application
+                        of skills and knowledge gained.
 
                         <br />
-                        <strong>3. Global Expansion:</strong> Explore opportunities to expand the Awake Convening to reach a wider national audience, ensuring that the benefits of networking and mentorship extend to young individuals across diverse geographical locations.
+                        <strong>3. Global Expansion:</strong> Explore
+                        opportunities to expand the Awake Convening to reach a
+                        wider national audience, ensuring that the benefits of
+                        networking and mentorship extend to young individuals
+                        across diverse geographical locations.
 
                         <br />
-                        <strong>4. Institutional Partnerships:</strong> Forge partnerships with educational institutions, businesses, and organizations to integrate the Awake Convening into broader initiatives supporting youth development and empowerment.
+                        <strong>4. Institutional Partnerships:</strong> Forge
+                        partnerships with educational institutions, businesses,
+                        and organizations to integrate the Awake Convening into
+                        broader initiatives supporting youth development and
+                        empowerment.
                       </p>
                     </div>
                   </div>
@@ -1970,7 +2008,5 @@ positively	to	their	communities.
       href="index.html#content"
       >Skip to content</a
     >
-
   </body>
 </html>
-

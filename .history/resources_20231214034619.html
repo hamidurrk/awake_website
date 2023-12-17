@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
@@ -47,13 +47,13 @@
           e.clearRect(0, 0, e.canvas.width, e.canvas.height),
             e.fillText(t, 0, 0);
           var t = new Uint32Array(
-              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
             ),
             r =
               (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
               e.fillText(n, 0, 0),
               new Uint32Array(
-                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
               ));
           return t.every(function (e, t) {
             return e === r[t];
@@ -65,24 +65,24 @@
               return n(
                 e,
                 "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
-                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f",
               )
                 ? !1
                 : !n(
                     e,
                     "\ud83c\uddfa\ud83c\uddf3",
-                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                    "\ud83c\uddfa\u200b\ud83c\uddf3",
                   ) &&
                     !n(
                       e,
                       "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
-                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f",
                     );
             case "emoji":
               return !n(
                 e,
                 "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff",
-                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff"
+                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff",
               );
           }
           return !1;
@@ -141,7 +141,7 @@
                       f.toString() +
                       "(" +
                       [JSON.stringify(s), u.toString(), p.toString()].join(
-                        ","
+                        ",",
                       ) +
                       "));",
                     r = new Blob([e], { type: "text/javascript" }),
@@ -1560,8 +1560,10 @@
                         <span>Awake Annual Report - 2022 </span>
                       </h3>
                       <div class="image-boxes-text">
-                        2022 Awake Annual Report Highlights our achivement in the 2022 FY, this report covers comprehensive Program Impact, Financial Report and Strategic Goals for the next 2 years
-
+                        2022 Awake Annual Report Highlights our achivement in
+                        the 2022 FY, this report covers comprehensive Program
+                        Impact, Financial Report and Strategic Goals for the
+                        next 2 years
                       </div>
                     </div>
                   </div>
@@ -1599,7 +1601,11 @@
                         <span>Awake Safeguarding Policy</span>
                       </h3>
                       <div class="image-boxes-text">
-                        AWAKE’s work is all about Safeguarding – in that it seeks to safeguard and secure opportunities for young people today and in the future. AWAKE will continually review and improve its policies, systems and procedures to ensure they work and that they reflect best practice.
+                        AWAKE’s work is all about Safeguarding – in that it
+                        seeks to safeguard and secure opportunities for young
+                        people today and in the future. AWAKE will continually
+                        review and improve its policies, systems and procedures
+                        to ensure they work and that they reflect best practice.
                       </div>
                     </div>
                   </div>
@@ -1637,7 +1643,9 @@
                         <span>Awake Audit Report</span>
                       </h3>
                       <div class="image-boxes-text">
-                        Highlights how Awake managed grants in its FY 2019-2020. This report reflects Awake's commitment to accountability
+                        Highlights how Awake managed grants in its FY 2019-2020.
+                        This report reflects Awake's commitment to
+                        accountability
                       </div>
                     </div>
                   </div>
@@ -1675,7 +1683,8 @@
                         <span>7 years of Reflection</span>
                       </h3>
                       <div class="image-boxes-text">
-                        Awake C.E.O, Meshack Otieno Reflects on 7 years of Reflection.
+                        Awake C.E.O, Meshack Otieno Reflects on 7 years of
+                        Reflection.
                       </div>
                     </div>
                   </div>

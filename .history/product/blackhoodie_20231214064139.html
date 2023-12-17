@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
@@ -53,13 +53,13 @@
           e.clearRect(0, 0, e.canvas.width, e.canvas.height),
             e.fillText(t, 0, 0);
           var t = new Uint32Array(
-              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
             ),
             r =
               (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
               e.fillText(n, 0, 0),
               new Uint32Array(
-                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
               ));
           return t.every(function (e, t) {
             return e === r[t];
@@ -71,24 +71,24 @@
               return n(
                 e,
                 "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
-                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f",
               )
                 ? !1
                 : !n(
                     e,
                     "\ud83c\uddfa\ud83c\uddf3",
-                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                    "\ud83c\uddfa\u200b\ud83c\uddf3",
                   ) &&
                     !n(
                       e,
                       "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
-                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f",
                     );
             case "emoji":
               return !n(
                 e,
                 "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff",
-                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff"
+                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff",
               );
           }
           return !1;
@@ -147,7 +147,7 @@
                       f.toString() +
                       "(" +
                       [JSON.stringify(s), u.toString(), p.toString()].join(
-                        ","
+                        ",",
                       ) +
                       "));",
                     r = new Blob([e], { type: "text/javascript" }),
@@ -954,10 +954,8 @@
       })(document, "script", "facebook-jssdk");
     </script>
 
-    
-
     <div id="page_wrapper">
-		<header
+      <header
         id="header"
         class="site-header style7 header--follow sticky-resize headerstyle--default site-header--absolute nav-th--light sheader-sh--light"
         role="banner"
@@ -1056,7 +1054,10 @@
                             <div class="col-sm-5">
                               <div class="infocard-wrapper text-center">
                                 <p>
-                                  <img src="../img/logo/logo-2.png" alt="Awake" />
+                                  <img
+                                    src="../img/logo/logo-2.png"
+                                    alt="Awake"
+                                  />
                                 </p>
                                 <p>
                                   Awake Youth Initiative is founded with a
@@ -1329,17 +1330,15 @@
                       style="opacity: 0; transition: opacity 0.25s ease-in-out"
                     >
                       <div class="woocommerce-product-gallery__wrapper">
-                        <div
-                          class="woocommerce-product-gallery__image"
-                        >
+                        <div class="woocommerce-product-gallery__image">
                           <img
-                              width="332"
-                              height="640"
-                              src="../img/shop/blackhood.jpg"
-                              class="wp-post-image"
-                              alt=""
-                              title="Awake Black Hoodie"                              
-                              sizes="(max-width: 332px) 100vw, 332px"
+                            width="332"
+                            height="640"
+                            src="../img/shop/blackhood.jpg"
+                            class="wp-post-image"
+                            alt=""
+                            title="Awake Black Hoodie"
+                            sizes="(max-width: 332px) 100vw, 332px"
                           />
                         </div>
                       </div>
@@ -1602,12 +1601,9 @@
                     </div>
                   </div>
                 </div>
-
-                
               </div>
             </div>
             <!-- sidebar -->
-            
           </div>
         </div>
       </section>
@@ -2183,7 +2179,6 @@
       href="index.html#content"
       >Skip to content</a
     >
-    
   </body>
 </html>
 

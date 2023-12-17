@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
@@ -35,13 +35,13 @@
           e.clearRect(0, 0, e.canvas.width, e.canvas.height),
             e.fillText(t, 0, 0);
           var t = new Uint32Array(
-              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
             ),
             r =
               (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
               e.fillText(n, 0, 0),
               new Uint32Array(
-                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
               ));
           return t.every(function (e, t) {
             return e === r[t];
@@ -53,24 +53,24 @@
               return n(
                 e,
                 "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
-                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f",
               )
                 ? !1
                 : !n(
                     e,
                     "\ud83c\uddfa\ud83c\uddf3",
-                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                    "\ud83c\uddfa\u200b\ud83c\uddf3",
                   ) &&
                     !n(
                       e,
                       "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
-                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f",
                     );
             case "emoji":
               return !n(
                 e,
                 "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff",
-                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff"
+                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff",
               );
           }
           return !1;
@@ -129,7 +129,7 @@
                       f.toString() +
                       "(" +
                       [JSON.stringify(s), u.toString(), p.toString()].join(
-                        ","
+                        ",",
                       ) +
                       "));",
                     r = new Blob([e], { type: "text/javascript" }),
@@ -1323,7 +1323,15 @@
                     <div
                       class="el-videobox eluid6eb46343 el-videobox-Type-modal"
                     >
-                    <iframe width="425" height="240" src="https://www.youtube.com/embed/abc4imXZEmk?si=ucKjnSb0a1BzevMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      <iframe
+                        width="425"
+                        height="240"
+                        src="https://www.youtube.com/embed/abc4imXZEmk?si=ucKjnSb0a1BzevMA"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
                     </div>
                   </div>
                 </div>
@@ -1341,7 +1349,13 @@
                       class="zn_text_box eluid938b2370 zn_text_box-light element-scheme--light"
                     >
                       <p>
-                        A significant challenge faced by young changemakers in undeserved communities is the lack of opportunities for meaningful connection, collaboration, and mentorship. This gap impedes their personal and professional development, hindering the formation of networks essential for navigating complex challenges and unlocking their full potential to grow their ventures
+                        A significant challenge faced by young changemakers in
+                        undeserved communities is the lack of opportunities for
+                        meaningful connection, collaboration, and mentorship.
+                        This gap impedes their personal and professional
+                        development, hindering the formation of networks
+                        essential for navigating complex challenges and
+                        unlocking their full potential to grow their ventures
                       </p>
                     </div>
                   </div>
@@ -1393,7 +1407,13 @@
                       class="zn_text_box eluidd09e07c8 zn_text_box-light element-scheme--light"
                     >
                       <p>
-                        The Awake Convening is designed to address this challenge by providing a platform for young individuals to connect, collaborate, and influence policymaking. This annual covening brings together diverse perspectives, fosters meaningful relationships, and provides a supportive environment for personal and professional growth.
+                        The Awake Convening is designed to address this
+                        challenge by providing a platform for young individuals
+                        to connect, collaborate, and influence policymaking.
+                        This annual covening brings together diverse
+                        perspectives, fosters meaningful relationships, and
+                        provides a supportive environment for personal and
+                        professional growth.
                       </p>
                     </div>
                   </div>
@@ -1500,13 +1520,15 @@
                       >
                       <div class="image-boxes-text">
                         <p>
-                          Dive into the ethical considerations of social entrepreneurship. Discuss and analyze case studies that explore the intersection of profit and purpose, ensuring that your ventures align with your values.
+                          Dive into the ethical considerations of social
+                          entrepreneurship. Discuss and analyze case studies
+                          that explore the intersection of profit and purpose,
+                          ensuring that your ventures align with your values.
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                
               </div>
 
               <div
@@ -1545,13 +1567,15 @@
                       >
                       <div class="image-boxes-text">
                         <p>
-                          Dive into the ethical considerations of social entrepreneurship. Discuss and analyze case studies that explore the intersection of profit and purpose, ensuring that your ventures align with your values.
+                          Dive into the ethical considerations of social
+                          entrepreneurship. Discuss and analyze case studies
+                          that explore the intersection of profit and purpose,
+                          ensuring that your ventures align with your values.
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                
               </div>
 
               <div

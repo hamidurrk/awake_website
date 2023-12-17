@@ -1,7 +1,6 @@
 :root {
-    --red-1: #FF0000;
+  --red-1: #ff0000;
 }
-
 
 h1,
 .page-title,
@@ -66,7 +65,7 @@ body {
 }
 a:focus,
 a:hover {
-  color:  var(--red-1);
+  color: var(--red-1);
 }
 .element-scheme--light {
   color: #535353;
@@ -76,7 +75,7 @@ a:hover {
 }
 .element-scheme--light a:hover,
 .element-scheme--light .element-scheme__linkhv:hover {
-  color:  var(--red-1);
+  color: var(--red-1);
 }
 .element-scheme--light .element-scheme__hdg1 {
   color: #323232;
@@ -240,7 +239,7 @@ body.boxed #page_wrapper {
 .preloader-material-circle,
 ul.colored-list[class*="list-style"] li:before,
 .woocommerce-MyAccount-navigation ul li.is-active a {
-  color:  var(--red-1);
+  color: var(--red-1);
 }
 .btn-lined.lined-custom:hover,
 #header .main-nav > ul > .menu-item.menuitem-highlight > a {
@@ -251,7 +250,7 @@ ul.colored-list[class*="list-style"] li:before,
 .kl-main-bgcolor-before:before,
 .kl-main-bgcolor-hover:hover,
 .kl-main-bgcolor-parenthover:hover .kl-main-bgcolor-child {
-  background-color:  var(--red-1);
+  background-color: var(--red-1);
 }
 .main-nav.mainnav--active-bg > ul > .menu-item > a:before,
 .main-nav .zn_mega_container .menu-item a:not(.zn_mega_title):before,
@@ -264,7 +263,7 @@ ul.colored-list[class*="list-style"] li:before,
 .kl-cta-ribbon,
 .cart-container .buttons .button.wc-forward,
 .chaser-main-menu li.active > a {
-  background-color:  var(--red-1);
+  background-color: var(--red-1);
 }
 .action_box,
 .action_box.style3:before,
@@ -342,7 +341,7 @@ ul.colored-list[class*="list-style"] li:before,
 .feature_box.style3 .box:hover,
 .services_box_element:hover .box .icon,
 .elm-social-icons.sc--normal .elm-sc-link:hover .elm-sc-icon {
-  background-color:  var(--red-1);
+  background-color: var(--red-1);
 }
 .kl-ioscaption--style4 .more:before,
 .zn-iosSl-caption.zn-iosSl-caption--style4 .zn-iosSl-more::before {
@@ -373,7 +372,7 @@ ul.colored-list[class*="list-style"] li:before,
 #bbpress-forums div.bbp-search-form input[type="submit"],
 #bbpress-forums .bbp-submit-wrapper button,
 #bbpress-forums #bbp-your-profile fieldset.submit button {
-  background-color:  var(--red-1);
+  background-color: var(--red-1);
 }
 .btn.btn-fullcolor:hover,
 .btn.btn-fullcolor.btn-skewed:hover:before,
@@ -401,7 +400,7 @@ ul.colored-list[class*="list-style"] li:before,
 .zn-iosSl-caption.zn-iosSl-caption--style4 .zn-iosSl-more::before,
 .btn-lined.lined-custom,
 .btn.btn-bordered {
-  border-color:  var(--red-1);
+  border-color: var(--red-1);
 }
 .fake-loading:after {
   border-color: rgba(239, 76, 35, 0.15);
@@ -416,7 +415,7 @@ ul.colored-list[class*="list-style"] li:before,
 .offline-page-container:after,
 .latest_posts3-post-date:after,
 .fake-loading:after {
-  border-top-color:  var(--red-1);
+  border-top-color: var(--red-1);
 }
 .stepbox3-box[data-align="right"] .stepbox3-content:after,
 .vr-tabs-kl-style-1 .vr-tabs-nav-item.active .vr-tabs-nav-link,
@@ -427,7 +426,7 @@ ul.colored-list[class*="list-style"] li:before,
 .zn-iosSl-caption.zn-iosSl-caption--style2.zn-iosSl-caption--hAlign-right
   .zn-iosSl-smallTitle,
 .fake-loading:after {
-  border-right-color:  var(--red-1);
+  border-right-color: var(--red-1);
 }
 .image-boxes.image-boxes--4.kl-title_style_bottom .imgboxes-border-helper,
 .image-boxes.image-boxes--4.kl-title_style_bottom:hover .imgboxes-border-helper,
@@ -441,7 +440,7 @@ ul.colored-list[class*="list-style"] li:before,
 .offline-page-container,
 .keywordbox.keywordbox-2,
 .keywordbox.keywordbox-3 {
-  border-bottom-color:  var(--red-1);
+  border-bottom-color: var(--red-1);
 }
 .breadcrumbs.bread-style--black li:before,
 .infobox2-inner,
@@ -456,37 +455,37 @@ ul.colored-list[class*="list-style"] li:before,
 .zn-iosSl-caption.zn-iosSl-caption--style2 .zn-iosSl-bigTitle,
 .zn-iosSl-caption.zn-iosSl-caption--style2 .zn-iosSl-smallTitle,
 html[dir="rtl"] .vr-tabs-kl-style-1 .vr-tabs-nav-item.active .vr-tabs-nav-link {
-  border-left-color:  var(--red-1);
+  border-left-color: var(--red-1);
 }
 .kl-cta-ribbon .trisvg path,
 .kl-mask .bmask-customfill,
 .kl-slideshow .kl-loader svg path,
 .kl-slideshow.kl-loadersvg rect,
 .kl-diagram circle {
-  fill:  var(--red-1);
+  fill: var(--red-1);
 }
 .borderanim2-svg__shape,
 .kl-blog--layout-def_modern .kl-blog-item-comments-link:hover path,
 .kl-blog--layout-def_modern .kl-blog-item-more-btn:hover .svg-more-bg {
-  stroke:  var(--red-1);
+  stroke: var(--red-1);
 }
 .hoverBorder:hover:after {
-  box-shadow: 0 0 0 5px  var(--red-1) inset;
+  box-shadow: 0 0 0 5px var(--red-1) inset;
 }
 .services_box--modern .services_box__icon {
-  box-shadow: inset 0 0 0 2px  var(--red-1);
+  box-shadow: inset 0 0 0 2px var(--red-1);
 }
 .services_box--modern:hover .services_box__icon {
-  box-shadow: inset 0 0 0 40px  var(--red-1);
+  box-shadow: inset 0 0 0 40px var(--red-1);
 }
 .services_box--modern .services_box__list li:before {
-  box-shadow: 0 0 0 2px  var(--red-1);
+  box-shadow: 0 0 0 2px var(--red-1);
 }
 .services_box--modern .services_box__list li:hover:before {
-  box-shadow: 0 0 0 3px  var(--red-1);
+  box-shadow: 0 0 0 3px var(--red-1);
 }
 .portfolio-item-overlay-imgintro:hover .portfolio-item-overlay {
-  box-shadow: inset 0 -8px 0 0  var(--red-1);
+  box-shadow: inset 0 -8px 0 0 var(--red-1);
 }
 .main-nav.mainnav--active-bg > ul > .menu-item.active > a,
 .main-nav.mainnav--active-bg > ul > .menu-item > a:hover,
@@ -551,24 +550,24 @@ html[dir="rtl"] .vr-tabs-kl-style-1 .vr-tabs-nav-item.active .vr-tabs-nav-link {
 #buddypress div.activity-meta a,
 #buddypress div.activity-meta a:hover,
 #buddypress .acomment-options a {
-  color:  var(--red-1);
+  color: var(--red-1);
 }
 #buddypress form#whats-new-form p.activity-greeting:after {
-  border-top-color:  var(--red-1);
+  border-top-color: var(--red-1);
 }
 #buddypress input[type="submit"],
 #buddypress input[type="button"],
 #buddypress input[type="reset"],
 #buddypress .activity-list li.load-more a {
-  background:  var(--red-1);
+  background: var(--red-1);
 }
 #buddypress div.item-list-tabs ul li.selected a,
 #buddypress div.item-list-tabs ul li.current a {
-  border-top: 2px solid  var(--red-1);
+  border-top: 2px solid var(--red-1);
 }
 #buddypress form#whats-new-form p.activity-greeting,
 .widget.buddypress ul.item-list li:hover {
-  background-color:  var(--red-1);
+  background-color: var(--red-1);
 }
 .kl-cta-ribbon {
   background-color: var(--red-1);
@@ -684,7 +683,8 @@ html[dir="rtl"] .vr-tabs-kl-style-1 .vr-tabs-nav-item.active .vr-tabs-nav-link {
   font-weight: normal;
   font-style: normal;
   src: url("../themes/kallyas/template_helpers/icons/glyphicons_halflingsregular/glyphicons_halflingsregular.eot");
-  src: url("../themes/kallyas/template_helpers/icons/glyphicons_halflingsregular/glyphicons_halflingsregular.eot")
+  src:
+    url("../themes/kallyas/template_helpers/icons/glyphicons_halflingsregular/glyphicons_halflingsregular.eot")
       format("embedded-opentype"),
     url("../themes/kallyas/template_helpers/icons/glyphicons_halflingsregular/glyphicons_halflingsregular.woff")
       format("woff"),
@@ -705,7 +705,8 @@ html[dir="rtl"] .vr-tabs-kl-style-1 .vr-tabs-nav-item.active .vr-tabs-nav-link {
   font-weight: normal;
   font-style: normal;
   src: url("../themes/kallyas/template_helpers/icons/kl-social-icons/kl-social-icons.eot");
-  src: url("../themes/kallyas/template_helpers/icons/kl-social-icons/kl-social-icons.eot")
+  src:
+    url("../themes/kallyas/template_helpers/icons/kl-social-icons/kl-social-icons.eot")
       format("embedded-opentype"),
     url("../themes/kallyas/template_helpers/icons/kl-social-icons/kl-social-icons.woff")
       format("woff"),
@@ -726,7 +727,8 @@ html[dir="rtl"] .vr-tabs-kl-style-1 .vr-tabs-nav-item.active .vr-tabs-nav-link {
   font-weight: normal;
   font-style: normal;
   src: url("zn_fonts/icomoon/icomoon.eot");
-  src: url("zn_fonts/icomoon/icomoon.eot") format("embedded-opentype"),
+  src:
+    url("zn_fonts/icomoon/icomoon.eot") format("embedded-opentype"),
     url("zn_fonts/icomoon/icomoon.woff") format("woff"),
     url("zn_fonts/icomoon/icomoon.ttf") format("truetype"),
     url("zn_fonts/icomoon/icomoon.svg") format("svg");

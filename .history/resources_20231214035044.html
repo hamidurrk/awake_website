@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
@@ -47,13 +47,13 @@
           e.clearRect(0, 0, e.canvas.width, e.canvas.height),
             e.fillText(t, 0, 0);
           var t = new Uint32Array(
-              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
             ),
             r =
               (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
               e.fillText(n, 0, 0),
               new Uint32Array(
-                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
               ));
           return t.every(function (e, t) {
             return e === r[t];
@@ -65,24 +65,24 @@
               return n(
                 e,
                 "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
-                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f",
               )
                 ? !1
                 : !n(
                     e,
                     "\ud83c\uddfa\ud83c\uddf3",
-                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                    "\ud83c\uddfa\u200b\ud83c\uddf3",
                   ) &&
                     !n(
                       e,
                       "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
-                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f",
                     );
             case "emoji":
               return !n(
                 e,
                 "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff",
-                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff"
+                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff",
               );
           }
           return !1;
@@ -141,7 +141,7 @@
                       f.toString() +
                       "(" +
                       [JSON.stringify(s), u.toString(), p.toString()].join(
-                        ","
+                        ",",
                       ) +
                       "));",
                     r = new Blob([e], { type: "text/javascript" }),
@@ -1560,8 +1560,10 @@
                         <span>Awake Annual Report - 2022 </span>
                       </h3>
                       <div class="image-boxes-text">
-                        2022 Awake Annual Report Highlights our achivement in the 2022 FY, this report covers comprehensive Program Impact, Financial Report and Strategic Goals for the next 2 years
-
+                        2022 Awake Annual Report Highlights our achivement in
+                        the 2022 FY, this report covers comprehensive Program
+                        Impact, Financial Report and Strategic Goals for the
+                        next 2 years
                       </div>
                     </div>
                   </div>
@@ -1599,7 +1601,11 @@
                         <span>Awake Safeguarding Policy</span>
                       </h3>
                       <div class="image-boxes-text">
-                        AWAKE’s work is all about Safeguarding – in that it seeks to safeguard and secure opportunities for young people today and in the future. AWAKE will continually review and improve its policies, systems and procedures to ensure they work and that they reflect best practice.
+                        AWAKE’s work is all about Safeguarding – in that it
+                        seeks to safeguard and secure opportunities for young
+                        people today and in the future. AWAKE will continually
+                        review and improve its policies, systems and procedures
+                        to ensure they work and that they reflect best practice.
                       </div>
                     </div>
                   </div>
@@ -1637,130 +1643,137 @@
                         <span>Awake Audit Report</span>
                       </h3>
                       <div class="image-boxes-text">
-                        Highlights how Awake managed grants in its FY 2019-2020. This report reflects Awake's commitment to accountability
+                        Highlights how Awake managed grants in its FY 2019-2020.
+                        This report reflects Awake's commitment to
+                        accountability
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-			<div class="row">
-				<div
-				  class="eluidfafc579d col-md-4 col-sm-4 znColumnElement"
-				  id="eluidfafc579d"
-				>
-				  <div
-					class="znColumnElement-innerWrapper-eluidfafc579d znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left"
-				  >
-					<div class="znColumnElement-innerContent">
-					  <div
-						class="image-boxes image-boxes--1 eluidca4cd105 imgboxes_style1"
-					  >
-						<a
-						  href="https://youtu.be/UclY3B-jwAs"
-						  class="hoverBorder imgboxes-wrapper image-boxes-link"
-						  target="_self"
-						  itemprop="url"
-						  ><div class="image-boxes-img-wrapper">
-							<img
-							  class="image-boxes-img"
-							  src="img/resources/reflection.png"
-							  alt="7 years of Reflection"
-							  title=""
-							/></div
-						></a>
-						<h3
-						  class="m_title m_title_ext text-custom imgboxes-title image-boxes-title"
-						  itemprop="headline"
-						>
-						  <span>7 years of Reflection</span>
-						</h3>
-						<div class="image-boxes-text">
-						  Awake C.E.O, Meshack Otieno Reflects on 7 years of Reflection.
-						</div>
-					  </div>
-					</div>
-				  </div>
-				</div>
-  
-				<div
-				  class="eluid900bfa76 col-md-4 col-sm-4 znColumnElement"
-				  id="eluid900bfa76"
-				>
-				  <div
-					class="znColumnElement-innerWrapper-eluid900bfa76 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left"
-				  >
-					<div class="znColumnElement-innerContent">
-					  <div
-						class="image-boxes image-boxes--1 eluid39ef0092 imgboxes_style1"
-					  >
-						<a
-						  href="files/safeguarding.pdf"
-						  class="hoverBorder imgboxes-wrapper image-boxes-link"
-						  target="_self"
-						  itemprop="url"
-						  ><div class="image-boxes-img-wrapper">
-							<img
-							  class="image-boxes-img"
-							  src="img/resources/safeguarding.png"
-							  alt="Awake Audit Report"
-							  title="Awake Audit Report"
-							/></div
-						></a>
-						<h3
-						  class="m_title m_title_ext text-custom imgboxes-title image-boxes-title"
-						  itemprop="headline"
-						>
-						  <span>Awake Safeguarding Policy</span>
-						</h3>
-						<div class="image-boxes-text">
-						  AWAKE’s work is all about Safeguarding – in that it seeks to safeguard and secure opportunities for young people today and in the future. AWAKE will continually review and improve its policies, systems and procedures to ensure they work and that they reflect best practice.
-						</div>
-					  </div>
-					</div>
-				  </div>
-				</div>
-  
-				<div
-				  class="eluid5ecd6e12 col-md-4 col-sm-4 znColumnElement"
-				  id="eluid5ecd6e12"
-				>
-				  <div
-					class="znColumnElement-innerWrapper-eluid5ecd6e12 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left"
-				  >
-					<div class="znColumnElement-innerContent">
-					  <div
-						class="image-boxes image-boxes--1 eluid013f0c1c imgboxes_style1"
-					  >
-						<a
-						  href="files/audit2019.pdf"
-						  class="hoverBorder imgboxes-wrapper image-boxes-link"
-						  target="_self"
-						  itemprop="url"
-						  ><div class="image-boxes-img-wrapper">
-							<img
-							  class="image-boxes-img"
-							  src="img/resources/audit2019.png"
-							  alt="Awake Audit Report"
-							  title=""
-							/></div
-						></a>
-						<h3
-						  class="m_title m_title_ext text-custom imgboxes-title image-boxes-title"
-						  itemprop="headline"
-						>
-						  <span>Awake Audit Report</span>
-						</h3>
-						<div class="image-boxes-text">
-						  Highlights how Awake managed grants in its FY 2019-2020. This report reflects Awake's commitment to accountability
-						</div>
-					  </div>
-					</div>
-				  </div>
-				</div>
-  
-				
-			  </div>
+            <div class="row">
+              <div
+                class="eluidfafc579d col-md-4 col-sm-4 znColumnElement"
+                id="eluidfafc579d"
+              >
+                <div
+                  class="znColumnElement-innerWrapper-eluidfafc579d znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left"
+                >
+                  <div class="znColumnElement-innerContent">
+                    <div
+                      class="image-boxes image-boxes--1 eluidca4cd105 imgboxes_style1"
+                    >
+                      <a
+                        href="https://youtu.be/UclY3B-jwAs"
+                        class="hoverBorder imgboxes-wrapper image-boxes-link"
+                        target="_self"
+                        itemprop="url"
+                        ><div class="image-boxes-img-wrapper">
+                          <img
+                            class="image-boxes-img"
+                            src="img/resources/reflection.png"
+                            alt="7 years of Reflection"
+                            title=""
+                          /></div
+                      ></a>
+                      <h3
+                        class="m_title m_title_ext text-custom imgboxes-title image-boxes-title"
+                        itemprop="headline"
+                      >
+                        <span>7 years of Reflection</span>
+                      </h3>
+                      <div class="image-boxes-text">
+                        Awake C.E.O, Meshack Otieno Reflects on 7 years of
+                        Reflection.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="eluid900bfa76 col-md-4 col-sm-4 znColumnElement"
+                id="eluid900bfa76"
+              >
+                <div
+                  class="znColumnElement-innerWrapper-eluid900bfa76 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left"
+                >
+                  <div class="znColumnElement-innerContent">
+                    <div
+                      class="image-boxes image-boxes--1 eluid39ef0092 imgboxes_style1"
+                    >
+                      <a
+                        href="files/safeguarding.pdf"
+                        class="hoverBorder imgboxes-wrapper image-boxes-link"
+                        target="_self"
+                        itemprop="url"
+                        ><div class="image-boxes-img-wrapper">
+                          <img
+                            class="image-boxes-img"
+                            src="img/resources/safeguarding.png"
+                            alt="Awake Audit Report"
+                            title="Awake Audit Report"
+                          /></div
+                      ></a>
+                      <h3
+                        class="m_title m_title_ext text-custom imgboxes-title image-boxes-title"
+                        itemprop="headline"
+                      >
+                        <span>Awake Safeguarding Policy</span>
+                      </h3>
+                      <div class="image-boxes-text">
+                        AWAKE’s work is all about Safeguarding – in that it
+                        seeks to safeguard and secure opportunities for young
+                        people today and in the future. AWAKE will continually
+                        review and improve its policies, systems and procedures
+                        to ensure they work and that they reflect best practice.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="eluid5ecd6e12 col-md-4 col-sm-4 znColumnElement"
+                id="eluid5ecd6e12"
+              >
+                <div
+                  class="znColumnElement-innerWrapper-eluid5ecd6e12 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left"
+                >
+                  <div class="znColumnElement-innerContent">
+                    <div
+                      class="image-boxes image-boxes--1 eluid013f0c1c imgboxes_style1"
+                    >
+                      <a
+                        href="files/audit2019.pdf"
+                        class="hoverBorder imgboxes-wrapper image-boxes-link"
+                        target="_self"
+                        itemprop="url"
+                        ><div class="image-boxes-img-wrapper">
+                          <img
+                            class="image-boxes-img"
+                            src="img/resources/audit2019.png"
+                            alt="Awake Audit Report"
+                            title=""
+                          /></div
+                      ></a>
+                      <h3
+                        class="m_title m_title_ext text-custom imgboxes-title image-boxes-title"
+                        itemprop="headline"
+                      >
+                        <span>Awake Audit Report</span>
+                      </h3>
+                      <div class="image-boxes-text">
+                        Highlights how Awake managed grants in its FY 2019-2020.
+                        This report reflects Awake's commitment to
+                        accountability
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>

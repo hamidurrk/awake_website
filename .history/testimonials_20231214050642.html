@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
@@ -47,13 +47,13 @@
           e.clearRect(0, 0, e.canvas.width, e.canvas.height),
             e.fillText(t, 0, 0);
           var t = new Uint32Array(
-              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
             ),
             r =
               (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
               e.fillText(n, 0, 0),
               new Uint32Array(
-                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
               ));
           return t.every(function (e, t) {
             return e === r[t];
@@ -65,24 +65,24 @@
               return n(
                 e,
                 "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
-                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f",
               )
                 ? !1
                 : !n(
                     e,
                     "\ud83c\uddfa\ud83c\uddf3",
-                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                    "\ud83c\uddfa\u200b\ud83c\uddf3",
                   ) &&
                     !n(
                       e,
                       "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
-                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f",
                     );
             case "emoji":
               return !n(
                 e,
                 "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff",
-                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff"
+                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff",
               );
           }
           return !1;
@@ -141,7 +141,7 @@
                       f.toString() +
                       "(" +
                       [JSON.stringify(s), u.toString(), p.toString()].join(
-                        ","
+                        ",",
                       ) +
                       "));",
                     r = new Blob([e], { type: "text/javascript" }),
@@ -1189,9 +1189,9 @@
                                 </p>
 
                                 <p>
-                                  Awake<br />Mbo-Mboini Rd, Off Dagoretti
-                                  Rd, Thogoto. City Kikuyu, Central Province,
-                                  Kenya. Postal Code: 00509
+                                  Awake<br />Mbo-Mboini Rd, Off Dagoretti Rd,
+                                  Thogoto. City Kikuyu, Central Province, Kenya.
+                                  Postal Code: 00509
                                 </p>
 
                                 <a
@@ -1511,7 +1511,9 @@
                     <div
                       class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--line_border tbk-icon-pos--after-title eluid38cf743a"
                     >
-                      <h3 class="tbk__title" itemprop="headline">Testimonials</h3>
+                      <h3 class="tbk__title" itemprop="headline">
+                        Testimonials
+                      </h3>
                       <span class="tbk__symbol"><span></span></span>
                     </div>
                   </div>
@@ -1643,198 +1645,203 @@
                 </div>
               </div>
             </div>
-			<div class="row">
-				<div
-				  class="eluid900bfa76 col-md-4 col-sm-4 znColumnElement"
-				  id="eluid900bfa76"
-				>
-				  <div
-					class="znColumnElement-innerWrapper-eluid900bfa76 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left"
-				  >
-					<div class="znColumnElement-innerContent">
-					  <div
-						class="image-boxes image-boxes--1 eluid39ef0092 imgboxes_style1"
-					  >
-						<a
-						  href="https://www.youtube.com/watch?v=afRfFTCXN-I&t=52s"
-						  class="hoverBorder imgboxes-wrapper image-boxes-link"
-						  target="_self"
-						  itemprop="url"
-						  ><div class="image-boxes-img-wrapper">
-							<img
-							  class="image-boxes-img"
-							  src="img/testimonials/#"
-							  alt="Feminist Esther Anne"
-							  title="Feminist Esther Anne"
-							/></div
-						></a>
-						<h3
-						  class="m_title m_title_ext text-custom imgboxes-title image-boxes-title"
-						  itemprop="headline"
-						>
-						  <span>Feminist Esther Anne</span>
-						</h3>
-						<div class="image-boxes-text">
-							<!-- Feminist Esther Anne. -->
-						</div>
-					  </div>
-					</div>
-				  </div>
-				</div>
-				<div
-				  class="eluidfafc579d col-md-4 col-sm-4 znColumnElement"
-				  id="eluidfafc579d"
-				>
-				  <div
-					class="znColumnElement-innerWrapper-eluidfafc579d znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left"
-				  >
-					<div class="znColumnElement-innerContent">
-					  <div
-						class="image-boxes image-boxes--1 eluidca4cd105 imgboxes_style1"
-					  >
-						<a
-						  href="https://www.youtube.com/watch?v=z0FVXEJo_g4&t=26s"
-						  class="hoverBorder imgboxes-wrapper image-boxes-link"
-						  target="_self"
-						  itemprop="url"
-						  ><div class="image-boxes-img-wrapper">
-							<img
-							  class="image-boxes-img"
-							  src="img/testimonials/#"
-							  alt="Merab Juma"
-							  title=""
-							/></div
-						></a>
-						<h3
-						  class="m_title m_title_ext text-custom imgboxes-title image-boxes-title"
-						  itemprop="headline"
-						>
-						  <span>Merab Juma</span>
-						</h3>
-						<div class="image-boxes-text">
-							<!-- Merab Juma -->
+            <div class="row">
+              <div
+                class="eluid900bfa76 col-md-4 col-sm-4 znColumnElement"
+                id="eluid900bfa76"
+              >
+                <div
+                  class="znColumnElement-innerWrapper-eluid900bfa76 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left"
+                >
+                  <div class="znColumnElement-innerContent">
+                    <div
+                      class="image-boxes image-boxes--1 eluid39ef0092 imgboxes_style1"
+                    >
+                      <a
+                        href="https://www.youtube.com/watch?v=afRfFTCXN-I&t=52s"
+                        class="hoverBorder imgboxes-wrapper image-boxes-link"
+                        target="_self"
+                        itemprop="url"
+                        ><div class="image-boxes-img-wrapper">
+                          <img
+                            class="image-boxes-img"
+                            src="img/testimonials/#"
+                            alt="Feminist Esther Anne"
+                            title="Feminist Esther Anne"
+                          /></div
+                      ></a>
+                      <h3
+                        class="m_title m_title_ext text-custom imgboxes-title image-boxes-title"
+                        itemprop="headline"
+                      >
+                        <span>Feminist Esther Anne</span>
+                      </h3>
+                      <div class="image-boxes-text">
+                        <!-- Feminist Esther Anne. -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="eluidfafc579d col-md-4 col-sm-4 znColumnElement"
+                id="eluidfafc579d"
+              >
+                <div
+                  class="znColumnElement-innerWrapper-eluidfafc579d znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left"
+                >
+                  <div class="znColumnElement-innerContent">
+                    <div
+                      class="image-boxes image-boxes--1 eluidca4cd105 imgboxes_style1"
+                    >
+                      <a
+                        href="https://www.youtube.com/watch?v=z0FVXEJo_g4&t=26s"
+                        class="hoverBorder imgboxes-wrapper image-boxes-link"
+                        target="_self"
+                        itemprop="url"
+                        ><div class="image-boxes-img-wrapper">
+                          <img
+                            class="image-boxes-img"
+                            src="img/testimonials/#"
+                            alt="Merab Juma"
+                            title=""
+                          /></div
+                      ></a>
+                      <h3
+                        class="m_title m_title_ext text-custom imgboxes-title image-boxes-title"
+                        itemprop="headline"
+                      >
+                        <span>Merab Juma</span>
+                      </h3>
+                      <div class="image-boxes-text">
+                        <!-- Merab Juma -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="eluid5ecd6e12 col-md-4 col-sm-4 znColumnElement"
+                id="eluid5ecd6e12"
+              >
+                <div
+                  class="znColumnElement-innerWrapper-eluid5ecd6e12 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left"
+                >
+                  <div class="znColumnElement-innerContent">
+                    <div
+                      class="image-boxes image-boxes--1 eluid013f0c1c imgboxes_style1"
+                    >
+                      <a
+                        href="https://youtu.be/abc4imXZEmk"
+                        class="hoverBorder imgboxes-wrapper image-boxes-link"
+                        target="_self"
+                        itemprop="url"
+                        ><div class="image-boxes-img-wrapper">
+                          <img
+                            class="image-boxes-img"
+                            src="img/resources/disruptive.jpg"
+                            alt="Disruptive Voices"
+                            title=""
+                          /></div
+                      ></a>
+                      <h3
+                        class="m_title m_title_ext text-custom imgboxes-title image-boxes-title"
+                        itemprop="headline"
+                      >
+                        <span>Disruptive Voices</span>
+                      </h3>
+                      <div class="image-boxes-text">
+                        In 2022 Awake convened 50+ changemakers in an event
+                        dubbed "Disruptive Voices." Young changemakers had the
+                        opportunity to showcase how they are ending injustices
+                        using their voices through art, spoken words, and
+                        cultural storytelling
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-					  </div>
-					</div>
-				  </div>
-				</div>  
-				<div
-				  class="eluid5ecd6e12 col-md-4 col-sm-4 znColumnElement"
-				  id="eluid5ecd6e12"
-				>
-				  <div
-					class="znColumnElement-innerWrapper-eluid5ecd6e12 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left"
-				  >
-					<div class="znColumnElement-innerContent">
-					  <div
-						class="image-boxes image-boxes--1 eluid013f0c1c imgboxes_style1"
-					  >
-						<a
-						  href="https://youtu.be/abc4imXZEmk"
-						  class="hoverBorder imgboxes-wrapper image-boxes-link"
-						  target="_self"
-						  itemprop="url"
-						  ><div class="image-boxes-img-wrapper">
-							<img
-							  class="image-boxes-img"
-							  src="img/resources/disruptive.jpg"
-							  alt="Disruptive Voices"
-							  title=""
-							/></div
-						></a>
-						<h3
-						  class="m_title m_title_ext text-custom imgboxes-title image-boxes-title"
-						  itemprop="headline"
-						>
-						  <span>Disruptive Voices</span>
-						</h3>
-						<div class="image-boxes-text">
-							In 2022 Awake convened 50+ changemakers in an event dubbed "Disruptive Voices." Young changemakers had the opportunity to showcase how they are ending injustices using their voices through art, spoken words, and cultural storytelling
-						</div>
-					  </div>
-					</div>
-				  </div>
-				</div>
-  
-				
-			  </div>
-			  <div class="row">
-				<div
-				  class="eluidfafc579d col-md-4 col-sm-4 znColumnElement"
-				  id="eluidfafc579d"
-				>
-				  <div
-					class="znColumnElement-innerWrapper-eluidfafc579d znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left"
-				  >
-					<div class="znColumnElement-innerContent">
-					  <div
-						class="image-boxes image-boxes--1 eluidca4cd105 imgboxes_style1"
-					  >
-						<a
-						  href="https://youtu.be/vHlfp5Kv3Mw"
-						  class="hoverBorder imgboxes-wrapper image-boxes-link"
-						  target="_self"
-						  itemprop="url"
-						  ><div class="image-boxes-img-wrapper">
-							<img
-							  class="image-boxes-img"
-							  src="img/resources/welcome.jpg"
-							  alt="Welcoming The 2022-2024 Board"
-							  title=""
-							/></div
-						></a>
-						<h3
-						  class="m_title m_title_ext text-custom imgboxes-title image-boxes-title"
-						  itemprop="headline"
-						>
-						  <span>Welcoming The 2022-2024 Board</span>
-						</h3>
-						<div class="image-boxes-text">
-							Awake is excited to welcome its 2022-2024 board. The team consists of experts in areas Awake would want to grow the most
-						</div>
-					  </div>
-					</div>
-				  </div>
-				</div>
-  
-				<div
-				  class="eluid900bfa76 col-md-4 col-sm-4 znColumnElement"
-				  id="eluid900bfa76"
-				>
-				  <div
-					class="znColumnElement-innerWrapper-eluid900bfa76 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left"
-				  >
-					<div class="znColumnElement-innerContent">
-					  <div
-						class="image-boxes image-boxes--1 eluid39ef0092 imgboxes_style1"
-					  >
-						<a
-						  href="https://youtu.be/jZc6LPw-TfI"
-						  class="hoverBorder imgboxes-wrapper image-boxes-link"
-						  target="_self"
-						  itemprop="url"
-						  ><div class="image-boxes-img-wrapper">
-							<img
-							  class="image-boxes-img"
-							  src="img/resources/funding.jpg"
-							  alt="Funding and Human Design Thinking"
-							  title="Funding and Human Design Thinking"
-							/></div
-						></a>
-						<h3
-						  class="m_title m_title_ext text-custom imgboxes-title image-boxes-title"
-						  itemprop="headline"
-						>
-						  <span>Funding and Human Design Thinking</span>
-						</h3>
-						<div class="image-boxes-text">
-							Awake Lead Young changemakers learn about Funding and Human Design Thinking from experts.
-						</div>
-					  </div>
-					</div>
-				  </div>
-				</div>
-			  </div>
+            <div class="row">
+              <div
+                class="eluidfafc579d col-md-4 col-sm-4 znColumnElement"
+                id="eluidfafc579d"
+              >
+                <div
+                  class="znColumnElement-innerWrapper-eluidfafc579d znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left"
+                >
+                  <div class="znColumnElement-innerContent">
+                    <div
+                      class="image-boxes image-boxes--1 eluidca4cd105 imgboxes_style1"
+                    >
+                      <a
+                        href="https://youtu.be/vHlfp5Kv3Mw"
+                        class="hoverBorder imgboxes-wrapper image-boxes-link"
+                        target="_self"
+                        itemprop="url"
+                        ><div class="image-boxes-img-wrapper">
+                          <img
+                            class="image-boxes-img"
+                            src="img/resources/welcome.jpg"
+                            alt="Welcoming The 2022-2024 Board"
+                            title=""
+                          /></div
+                      ></a>
+                      <h3
+                        class="m_title m_title_ext text-custom imgboxes-title image-boxes-title"
+                        itemprop="headline"
+                      >
+                        <span>Welcoming The 2022-2024 Board</span>
+                      </h3>
+                      <div class="image-boxes-text">
+                        Awake is excited to welcome its 2022-2024 board. The
+                        team consists of experts in areas Awake would want to
+                        grow the most
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="eluid900bfa76 col-md-4 col-sm-4 znColumnElement"
+                id="eluid900bfa76"
+              >
+                <div
+                  class="znColumnElement-innerWrapper-eluid900bfa76 znColumnElement-innerWrapper znColumnElement-innerWrapper--valign-top znColumnElement-innerWrapper--halign-left"
+                >
+                  <div class="znColumnElement-innerContent">
+                    <div
+                      class="image-boxes image-boxes--1 eluid39ef0092 imgboxes_style1"
+                    >
+                      <a
+                        href="https://youtu.be/jZc6LPw-TfI"
+                        class="hoverBorder imgboxes-wrapper image-boxes-link"
+                        target="_self"
+                        itemprop="url"
+                        ><div class="image-boxes-img-wrapper">
+                          <img
+                            class="image-boxes-img"
+                            src="img/resources/funding.jpg"
+                            alt="Funding and Human Design Thinking"
+                            title="Funding and Human Design Thinking"
+                          /></div
+                      ></a>
+                      <h3
+                        class="m_title m_title_ext text-custom imgboxes-title image-boxes-title"
+                        itemprop="headline"
+                      >
+                        <span>Funding and Human Design Thinking</span>
+                      </h3>
+                      <div class="image-boxes-text">
+                        Awake Lead Young changemakers learn about Funding and
+                        Human Design Thinking from experts.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>

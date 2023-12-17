@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
@@ -34,13 +34,13 @@
           e.clearRect(0, 0, e.canvas.width, e.canvas.height),
             e.fillText(t, 0, 0);
           var t = new Uint32Array(
-              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
             ),
             r =
               (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
               e.fillText(n, 0, 0),
               new Uint32Array(
-                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data,
               ));
           return t.every(function (e, t) {
             return e === r[t];
@@ -52,24 +52,24 @@
               return n(
                 e,
                 "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
-                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f",
               )
                 ? !1
                 : !n(
                     e,
                     "\ud83c\uddfa\ud83c\uddf3",
-                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                    "\ud83c\uddfa\u200b\ud83c\uddf3",
                   ) &&
                     !n(
                       e,
                       "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
-                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f",
                     );
             case "emoji":
               return !n(
                 e,
                 "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff",
-                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff"
+                "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff",
               );
           }
           return !1;
@@ -128,7 +128,7 @@
                       f.toString() +
                       "(" +
                       [JSON.stringify(s), u.toString(), p.toString()].join(
-                        ","
+                        ",",
                       ) +
                       "));",
                     r = new Blob([e], { type: "text/javascript" }),
@@ -1868,8 +1868,10 @@
                         target="_blank"
                         rel="noopener"
                         itemprop="url"
-                        style="width: 250px;"
-                        ><span class="zn-buttonText">Awake Changemaker School</span></a
+                        style="width: 250px"
+                        ><span class="zn-buttonText"
+                          >Awake Changemaker School</span
+                        ></a
                       >
                     </div>
                   </div>
@@ -1937,7 +1939,7 @@
             <div class="row"></div>
           </div>
         </section> -->
-<!-- 
+        <!-- 
         <div
           class="kl-title-block clearfix tbk--text- tbk--center text-center tbk-symbol--line_border tbk-icon-pos--after-title eluidaa918acf"
         >
@@ -2154,7 +2156,7 @@
                           src="img/ourStory.jpg"
                           width="1200"
                           height="1200"
-                          style="padding: 14% 0%;"
+                          style="padding: 14% 0%"
                           alt
                           title
                         />
@@ -2192,7 +2194,26 @@
                       class="zn_text_box eluid4392e7f5 zn_text_box-light element-scheme--light"
                     >
                       <div style="color: #ffffff; font-size: 14px">
-                        Meshack Otieno founded Awake Youth Initiative in 2015 with a vision of Transforming youth livelihood and leadership in underserved communities. Growing up in Mathare, the second largest slum in Kenya with an approximate population of 500,000 people, Meshack experienced extreme poverty, violence, and lack of opportunity. However, he also witnessed palpable hope that persist in slum and recognized that youths had sought something different for themselves. Through his mentor Vincent Odhiambo (Regional Director, Ashoka Africa), Meshack had learnt that greater opportunity could be created from within. In 2014, He graduated from Lepta community, an organization that trains youths on Leadership and entrepreneur skills, joined Ashoka East Africa Youth Venture where he grew his network and in 2015 he started Awake Youth Initiative in Mathare. Through Ashoka, Meshack met Tamara Quinlan, a passionate changemaker who was ready to channel her expertise and strength to help scale Awake. Together they joined hands to steer the vision ahead.
+                        Meshack Otieno founded Awake Youth Initiative in 2015
+                        with a vision of Transforming youth livelihood and
+                        leadership in underserved communities. Growing up in
+                        Mathare, the second largest slum in Kenya with an
+                        approximate population of 500,000 people, Meshack
+                        experienced extreme poverty, violence, and lack of
+                        opportunity. However, he also witnessed palpable hope
+                        that persist in slum and recognized that youths had
+                        sought something different for themselves. Through his
+                        mentor Vincent Odhiambo (Regional Director, Ashoka
+                        Africa), Meshack had learnt that greater opportunity
+                        could be created from within. In 2014, He graduated from
+                        Lepta community, an organization that trains youths on
+                        Leadership and entrepreneur skills, joined Ashoka East
+                        Africa Youth Venture where he grew his network and in
+                        2015 he started Awake Youth Initiative in Mathare.
+                        Through Ashoka, Meshack met Tamara Quinlan, a passionate
+                        changemaker who was ready to channel her expertise and
+                        strength to help scale Awake. Together they joined hands
+                        to steer the vision ahead.
                       </div>
                     </div>
                   </div>
@@ -2243,7 +2264,9 @@
                           <h4 class="statistic-box__title" itemprop="headline">
                             2,943+
                           </h4>
-                          <div class="statistic-box__content">CHANGEMAKERS REACHED</div>
+                          <div class="statistic-box__content">
+                            CHANGEMAKERS REACHED
+                          </div>
                         </div>
                       </div>
                       <div class="statistic-box statistic-box--odd">
@@ -2264,7 +2287,7 @@
                           </div>
                         </div>
                       </div>
-                      
+
                       <div class="statistic-box statistic-box--odd">
                         <div class="statistic-box__icon-holder">
                           <span

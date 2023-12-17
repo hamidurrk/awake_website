@@ -679,7 +679,8 @@ html[dir="rtl"] .vr-tabs-kl-style-1 .vr-tabs-nav-item.active .vr-tabs-nav-link {
   font-weight: normal;
   font-style: normal;
   src: url("../themes/kallyas/template_helpers/icons/glyphicons_halflingsregular/glyphicons_halflingsregular.eot");
-  src: url("../themes/kallyas/template_helpers/icons/glyphicons_halflingsregular/glyphicons_halflingsregular.eot")
+  src:
+    url("../themes/kallyas/template_helpers/icons/glyphicons_halflingsregular/glyphicons_halflingsregular.eot")
       format("embedded-opentype"),
     url("../themes/kallyas/template_helpers/icons/glyphicons_halflingsregular/glyphicons_halflingsregular.woff")
       format("woff"),
@@ -700,7 +701,8 @@ html[dir="rtl"] .vr-tabs-kl-style-1 .vr-tabs-nav-item.active .vr-tabs-nav-link {
   font-weight: normal;
   font-style: normal;
   src: url("../themes/kallyas/template_helpers/icons/kl-social-icons/kl-social-icons.eot");
-  src: url("../themes/kallyas/template_helpers/icons/kl-social-icons/kl-social-icons.eot")
+  src:
+    url("../themes/kallyas/template_helpers/icons/kl-social-icons/kl-social-icons.eot")
       format("embedded-opentype"),
     url("../themes/kallyas/template_helpers/icons/kl-social-icons/kl-social-icons.woff")
       format("woff"),
@@ -721,7 +723,8 @@ html[dir="rtl"] .vr-tabs-kl-style-1 .vr-tabs-nav-item.active .vr-tabs-nav-link {
   font-weight: normal;
   font-style: normal;
   src: url("zn_fonts/icomoon/icomoon.eot");
-  src: url("zn_fonts/icomoon/icomoon.eot") format("embedded-opentype"),
+  src:
+    url("zn_fonts/icomoon/icomoon.eot") format("embedded-opentype"),
     url("zn_fonts/icomoon/icomoon.woff") format("woff"),
     url("zn_fonts/icomoon/icomoon.ttf") format("truetype"),
     url("zn_fonts/icomoon/icomoon.svg") format("svg");

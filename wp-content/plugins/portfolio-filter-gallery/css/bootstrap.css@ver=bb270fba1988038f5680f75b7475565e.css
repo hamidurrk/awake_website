@@ -23,7 +23,8 @@
   text-decoration: none;
 }
 
-.pfg-bootstrap a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+.pfg-bootstrap a:not([href]):not([tabindex]):hover,
+a:not([href]):not([tabindex]):focus {
   color: inherit;
   text-decoration: none;
 }
@@ -31,7 +32,6 @@
 .pfg-bootstrap a:not([href]):not([tabindex]):focus {
   outline: 0;
 }
-
 
 .pfg-bootstrap .img-fluid {
   max-width: 100%;
@@ -50,11 +50,11 @@
   border-radius: 50%;
 }
 .pfg-bootstrap img {
- -moz-transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
-  -ms-transition: all .2s ease-in-out;
-  -o-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .pfg-bootstrap .thumbnail {
   display: block;
@@ -64,9 +64,9 @@
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
-  -webkit-transition: border .2s ease-in-out;
-       -o-transition: border .2s ease-in-out;
-          transition: border .2s ease-in-out;
+  -webkit-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
 }
 .pfg-bootstrap .thumbnail > img,
 .pfg-bootstrap .thumbnail a > img {
@@ -102,12 +102,75 @@ img {
   border-radius: 6px;
 }
 
-
-.pfg-bootstrap .col-1, .pfg-bootstrap .col-2, .pfg-bootstrap .col-3, .pfg-bootstrap .col-4, .pfg-bootstrap .col-5, .pfg-bootstrap .col-6, .pfg-bootstrap .col-7, .pfg-bootstrap .col-8, .pfg-bootstrap .col-9, .pfg-bootstrap .col-10, .pfg-bootstrap .col-11, .pfg-bootstrap .col-12, .pfg-bootstrap .col,
-.pfg-bootstrap .col-auto, .pfg-bootstrap .col-sm-1, .pfg-bootstrap .col-sm-2, .pfg-bootstrap .col-sm-3, .pfg-bootstrap .col-sm-4, .pfg-bootstrap .col-sm-5, .pfg-bootstrap .col-sm-6, .pfg-bootstrap .col-sm-7, .pfg-bootstrap .col-sm-8, .pfg-bootstrap .col-sm-9, .pfg-bootstrap .col-sm-10, .pfg-bootstrap .col-sm-11, .pfg-bootstrap .col-sm-12, .pfg-bootstrap .col-sm,
-.pfg-bootstrap .col-sm-auto, .pfg-bootstrap .col-md-1, .pfg-bootstrap .col-md-2, .pfg-bootstrap .col-md-3, .pfg-bootstrap .col-md-4, .pfg-bootstrap .col-md-5, .pfg-bootstrap .col-md-6, .pfg-bootstrap .col-md-7, .pfg-bootstrap .col-md-8, .pfg-bootstrap .col-md-9, .pfg-bootstrap .col-md-10, .pfg-bootstrap .col-md-11, .pfg-bootstrap .col-md-12, .pfg-bootstrap .col-md,
-.pfg-bootstrap .col-md-auto, .pfg-bootstrap .col-lg-1, .pfg-bootstrap .col-lg-2, .pfg-bootstrap .col-lg-3, .pfg-bootstrap .col-lg-4, .pfg-bootstrap .col-lg-5, .pfg-bootstrap .col-lg-6, .pfg-bootstrap .col-lg-7, .pfg-bootstrap .col-lg-8, .pfg-bootstrap .col-lg-9, .pfg-bootstrap .col-lg-10, .pfg-bootstrap .col-lg-11, .pfg-bootstrap .col-lg-12, .pfg-bootstrap .col-lg,
-.pfg-bootstrap .col-lg-auto, .pfg-bootstrap .col-xl-1, .pfg-bootstrap .col-xl-2, .pfg-bootstrap .col-xl-3, .pfg-bootstrap .col-xl-4, .pfg-bootstrap .col-xl-5, .pfg-bootstrap .col-xl-6, .pfg-bootstrap .col-xl-7, .pfg-bootstrap .col-xl-8, .pfg-bootstrap .col-xl-9, .pfg-bootstrap .col-xl-10, .pfg-bootstrap .col-xl-11, .pfg-bootstrap .col-xl-12, .pfg-bootstrap .col-xl,
+.pfg-bootstrap .col-1,
+.pfg-bootstrap .col-2,
+.pfg-bootstrap .col-3,
+.pfg-bootstrap .col-4,
+.pfg-bootstrap .col-5,
+.pfg-bootstrap .col-6,
+.pfg-bootstrap .col-7,
+.pfg-bootstrap .col-8,
+.pfg-bootstrap .col-9,
+.pfg-bootstrap .col-10,
+.pfg-bootstrap .col-11,
+.pfg-bootstrap .col-12,
+.pfg-bootstrap .col,
+.pfg-bootstrap .col-auto,
+.pfg-bootstrap .col-sm-1,
+.pfg-bootstrap .col-sm-2,
+.pfg-bootstrap .col-sm-3,
+.pfg-bootstrap .col-sm-4,
+.pfg-bootstrap .col-sm-5,
+.pfg-bootstrap .col-sm-6,
+.pfg-bootstrap .col-sm-7,
+.pfg-bootstrap .col-sm-8,
+.pfg-bootstrap .col-sm-9,
+.pfg-bootstrap .col-sm-10,
+.pfg-bootstrap .col-sm-11,
+.pfg-bootstrap .col-sm-12,
+.pfg-bootstrap .col-sm,
+.pfg-bootstrap .col-sm-auto,
+.pfg-bootstrap .col-md-1,
+.pfg-bootstrap .col-md-2,
+.pfg-bootstrap .col-md-3,
+.pfg-bootstrap .col-md-4,
+.pfg-bootstrap .col-md-5,
+.pfg-bootstrap .col-md-6,
+.pfg-bootstrap .col-md-7,
+.pfg-bootstrap .col-md-8,
+.pfg-bootstrap .col-md-9,
+.pfg-bootstrap .col-md-10,
+.pfg-bootstrap .col-md-11,
+.pfg-bootstrap .col-md-12,
+.pfg-bootstrap .col-md,
+.pfg-bootstrap .col-md-auto,
+.pfg-bootstrap .col-lg-1,
+.pfg-bootstrap .col-lg-2,
+.pfg-bootstrap .col-lg-3,
+.pfg-bootstrap .col-lg-4,
+.pfg-bootstrap .col-lg-5,
+.pfg-bootstrap .col-lg-6,
+.pfg-bootstrap .col-lg-7,
+.pfg-bootstrap .col-lg-8,
+.pfg-bootstrap .col-lg-9,
+.pfg-bootstrap .col-lg-10,
+.pfg-bootstrap .col-lg-11,
+.pfg-bootstrap .col-lg-12,
+.pfg-bootstrap .col-lg,
+.pfg-bootstrap .col-lg-auto,
+.pfg-bootstrap .col-xl-1,
+.pfg-bootstrap .col-xl-2,
+.pfg-bootstrap .col-xl-3,
+.pfg-bootstrap .col-xl-4,
+.pfg-bootstrap .col-xl-5,
+.pfg-bootstrap .col-xl-6,
+.pfg-bootstrap .col-xl-7,
+.pfg-bootstrap .col-xl-8,
+.pfg-bootstrap .col-xl-9,
+.pfg-bootstrap .col-xl-10,
+.pfg-bootstrap .col-xl-11,
+.pfg-bootstrap .col-xl-12,
+.pfg-bootstrap .col-xl,
 .pfg-bootstrap .col-xl-auto {
   position: relative;
   width: 100%;
@@ -305,7 +368,6 @@ img {
     flex: 0 0 100%;
     max-width: 100%;
   }
- 
 }
 
 @media (min-width: 768px) {
@@ -396,7 +458,6 @@ img {
     flex: 0 0 100%;
     max-width: 100%;
   }
-
 }
 
 @media (min-width: 992px) {
@@ -487,7 +548,6 @@ img {
     flex: 0 0 100%;
     max-width: 100%;
   }
- 
 }
 
 @media (min-width: 1200px) {
@@ -578,9 +638,7 @@ img {
     flex: 0 0 100%;
     max-width: 100%;
   }
- 
 }
-
 
 .pfg-bootstrap .fade {
   opacity: 0;
@@ -598,20 +656,21 @@ img {
   line-height: 1;
   color: #000;
   text-shadow: 0 1px 0 #fff;
-  opacity: .5;
+  opacity: 0.5;
 }
 
-.close:hover, .pfg-bootstrap .close:focus {
+.close:hover,
+.pfg-bootstrap .close:focus {
   color: #000;
   text-decoration: none;
-  opacity: .75;
+  opacity: 0.75;
 }
 
 .close:not(:disabled):not(.disabled) {
   cursor: pointer;
 }
 
- button.close {
+button.close {
   padding: 0;
   background-color: transparent;
   border: 0;
@@ -649,7 +708,9 @@ img {
 .modal.fade .modal-dialog {
   transition: -webkit-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
-  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  transition:
+    transform 0.3s ease-out,
+    -webkit-transform 0.3s ease-out;
   -webkit-transform: translate(0, -25%);
   transform: translate(0, -25%);
 }
@@ -705,7 +766,7 @@ img {
 }
 
 .modal-header {
-  display: unset; 
+  display: unset;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
@@ -718,7 +779,7 @@ img {
   border-top-right-radius: 0.3rem;
 }
 
- .modal-header .close {
+.modal-header .close {
   padding: 1rem;
   margin: -1rem -1rem -1rem auto;
 }
@@ -751,11 +812,11 @@ img {
 }
 
 .modal-footer > :not(:first-child) {
-  margin-left: .25rem;
+  margin-left: 0.25rem;
 }
 
 .modal-footer > :not(:last-child) {
-  margin-right: .25rem;
+  margin-right: 0.25rem;
 }
 /*
 .modal-scrollbar-measure {
@@ -767,7 +828,7 @@ img {
 }
 */
 @media (min-width: 576px) {
-   .modal-dialog {
+  .modal-dialog {
     max-width: 500px;
     margin: 1.75rem auto;
   }
@@ -858,6 +919,3 @@ img {
     text-align: center !important;
   }
 }
-
-
-
