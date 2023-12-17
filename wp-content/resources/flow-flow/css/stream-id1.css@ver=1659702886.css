@@ -1,0 +1,115 @@
+#ff-stream-1 .ff-header h1,#ff-stream-1 .ff-controls-wrapper > span:hover { color: rgb(59, 61, 64); }
+#ff-stream-1 .ff-controls-wrapper > span:hover { border-color: rgb(59, 61, 64) !important; }
+#ff-stream-1 .ff-header h2 { color: rgb(114, 112, 114); }
+#ff-stream-1 .ff-filter-holder .ff-filter,
+#ff-stream-1 .ff-filter-holder:before,
+#ff-stream-1 .selectric,
+#ff-stream-1 .ff-filter-holder .selectric-ff-filters-select .selectric-items,
+#ff-stream-1 .ff-loadmore-wrapper .ff-btn:hover {
+	background-color: rgb(205, 205, 205);
+}
+#ff-stream-1 .ff-filter:hover,
+#ff-stream-1 .ff-filter.ff-filter--active,
+#ff-stream-1 .ff-moderation-button,
+#ff-stream-1 .ff-loadmore-wrapper .ff-btn,
+#ff-stream-1 .ff-square:nth-child(1) {
+	background-color: rgb(59, 61, 64);
+}
+#ff-stream-1 .ff-filter-holder .ff-search input {
+	border-color: rgb(205, 205, 205);
+}
+#ff-stream-1 .ff-search input:focus,
+#ff-stream-1 .ff-search input:hover {
+border-color: rgb(59, 61, 64);
+}
+
+#ff-stream-1 .ff-filter-holder .ff-search:after {
+	color: rgb(205, 205, 205);
+}
+#ff-stream-1 .selectric .button:before{
+    border-top-color: rgb(205, 205, 205);
+}
+#ff-stream-1, #ff-stream-1 .ff-popup,
+#ff-stream-1 .ff-search input {
+	background-color: rgb(240, 240, 240);
+}
+
+#ff-stream-1 .ff-header h1, #ff-stream-1 .ff-header h2 {
+	text-align: center;
+}
+#ff-stream-1 .ff-controls-wrapper, #ff-stream-1 .ff-controls-wrapper > span {
+	border-color: rgb(205, 205, 205);
+}
+#ff-stream-1 .ff-controls-wrapper, #ff-stream-1 .ff-controls-wrapper > span {
+	color: rgb(205, 205, 205);
+}
+
+#ff-stream-1 .shuffle__sizer {
+	margin-left: 20px !important;
+}
+
+#ff-stream-1 .picture-item__inner {
+	background: rgb(255, 255, 255);
+	color: rgb(131, 141, 143);
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+}
+
+#ff-stream-1 .ff-content a {
+	color: rgb(94, 159, 202);
+}
+
+#ff-stream-1-slideshow .ff-share-popup, #ff-stream-1-slideshow .ff-share-popup:after,
+#ff-stream-1 .ff-share-popup, #ff-stream-1 .ff-share-popup:after {
+	background: rgb(255, 255, 255);
+}
+
+#ff-stream-1 .ff-mob-link {
+	background-color: rgb(131, 141, 143);
+}
+
+#ff-stream-1 .ff-mob-link:after,
+#ff-stream-1-slideshow .ff-share-wrapper a:after {
+	color: rgb(255, 255, 255);
+}
+#ff-stream-1,
+#ff-stream-1-slideshow,
+#ff-stream-1 .ff-infinite .ff-content {
+	color: rgb(131, 141, 143);
+}
+#ff-stream-1 .ff-infinite > li {
+	background: rgb(255, 255, 255);
+}
+#ff-stream-1 .ff-square {
+background: rgb(255, 255, 255);
+}
+#ff-stream-1 .ff-icon, #ff-stream-1-slideshow .ff-icon {
+	border-color: rgb(255, 255, 255);
+}
+#ff-stream-1 .ff-style-2 .ff-icon:after {
+	text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+}
+
+#ff-stream-1 .ff-item h1, #ff-stream-1 .ff-stream-wrapper.ff-infinite .ff-nickname, #ff-stream-1 h4, #ff-stream-1-slideshow h4,#ff-stream-1-slideshow h4 a,
+#ff-stream-1 .ff-name, #ff-stream-1-slideshow .ff-name {
+	color: rgb(59, 61, 64) !important;
+}
+
+#ff-stream-1 .ff-mob-link:hover {
+	background-color: rgb(59, 61, 64);
+}
+#ff-stream-1 .ff-nickname,
+#ff-stream-1 .ff-timestamp,
+#ff-stream-1 .ff-item-bar,
+#ff-stream-1 .ff-item-bar a {
+	color: rgb(132, 118, 129) !important;
+}
+#ff-stream-1-slideshow .ff-item-meta:before {
+	background-color: rgb(131, 141, 143) !important;
+}
+#ff-stream-1 .ff-item, #ff-stream-1 .ff-stream-wrapper.ff-infinite .ff-content {
+	text-align: left;
+}
+#ff-stream-1 .ff-overlay {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
