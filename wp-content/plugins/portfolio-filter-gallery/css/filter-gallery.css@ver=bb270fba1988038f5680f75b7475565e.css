@@ -1,0 +1,228 @@
+/* Filter output css*/
+.filtr-container {
+	overflow:hidden;
+}
+.filtr-container, .filtr-container .filtr-item {
+	-webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+	
+
+}
+
+.filtr-item {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+/* .isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+} */
+
+/**** disabling Isotope CSS3 transitions ****/
+.filtr-container .pf_result.no-transition,
+.pf_result.no-transition,
+.pf_result.no-transition .pf_result {
+  transition-duration: 0s;
+}
+
+.filtr-container {
+ -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+/* The Magnificent Clearfix: nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+/* .filtr-container:after {
+  content: '';
+  display: block;
+  clear: both;
+} */
+ .filtr-container .filtr-item {
+	  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+ }
+.filtr-item {
+	float: left;
+    overflow: hidden;
+	/*padding: 7px;*/
+	    position: relative;
+	/*opacity: 0;*/
+}
+ 
+
+.shown,
+.no-js .filtr-item,
+.no-cssanimations .filtr-item {
+	/*opacity: 1;*/
+}
+
+/* .grid li a,
+.grid li img {
+	outline: none;
+	border: none;
+	display: block;
+	max-width: 100%;
+} */
+
+
+/* Effect 3: Scale up */
+/* .animate {
+	transform: scale(1);
+	 transition: all 700ms ease-in-out;
+}*/
+
+.filtr-item {
+    padding: 1rem;
+}
+.item-desc {
+	background-color: rgba(0, 0, 0, 0.5);
+    bottom: 16px;
+    color: white;
+    display: block;
+    font-weight: 300;
+    left: 2rem;
+    padding: 4px;
+    position: absolute;
+    right: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* Filter controls */
+.simplefilter li, .sortandshuffle li {
+    cursor: pointer;
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 4px 30px;
+	transition: background .3s linear,color .3s linear,border .3s linear,opacity .3s linear;
+}
+ .sortandshuffle li:hover {
+    border: 4px solid #ffffff;
+    padding: 7px 28px;
+}
+.simplefilter li {
+	font-weight:400;
+}
+.simplefilter li:hover {
+  
+    /*border: 4px solid #ffffff;*/
+   background-color: #585858;
+    /*padding: 11px 36px;*/
+}
+
+.simplefilter li.active {
+    background-color: #000000;
+	color:#FFFFFF;
+	
+}
+.simplefilter {
+	width:100%;
+}
+
+/* Shuffle and sort controls */
+
+.sortandshuffle .shuffle-btn {
+    background-color: #dec800;
+}
+.sortandshuffle .sort-btn {
+    background-color: #de0000;
+}
+.sortandshuffle .sort-btn.active {
+    background-color: #9d0000;
+}
+
+/* Search control */
+.search-row {
+    margin-left: 2.5rem;
+}
+.filtr-search {
+	border: 5px solid #ccc !important;
+	 padding: 7px 30px 6px !important;
+	text-transform: uppercase;
+}
+.item-position {
+	background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    color: white;
+    display: block;
+    font-weight: 300;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    bottom: auto;
+    left: 3rem;
+    padding: 0.75rem 1.25rem;
+    right: auto;
+    top: 3rem;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+/* Portfolio video gallery icon */
+
+.snipv12 {
+  
+  overflow: hidden;
+  width: 100%;
+  background: #000000;
+}
+.snipv12 .portfolio_thumbnail {
+  max-width: 100%;
+  vertical-align: top;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.snipv12 .portfolio_thumbnail,
+.snipv12 .portfolio_thumbnail {
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+   opacity: 0.5;
+}
+
+.snipv12  i {
+	
+  color:#00ADEF;
+  position: absolute;
+  bottom: 50%;
+  right: 45%;
+  font-size: 30px;
+  line-height: 1em;
+  opacity: 0;
+  -webkit-transition: all 0.4s cubic-bezier(0.6, -0.8, 0.735, 0.045);
+  transition: all 0.4s cubic-bezier(0.6, -0.8, 0.735, 0.045);
+}
+.snipv12 i,
+.snipv12 i {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  opacity:1;
+} 
