@@ -7322,6 +7322,9 @@ ul.topnav {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  .logo-img {
+    filter: brightness(0) invert(1); /* Make the image white */
+}
   .site-header .site-logo-anch {
     background: none !important;
     border: none !important;
@@ -7330,6 +7333,7 @@ ul.topnav {
   .site-header .site-logo-anch:after {
     display: none;
   }
+  
 }
 @media (max-width: 480px) {
   .site-header .sh-component {
